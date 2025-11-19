@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-custom-orange: #ff5730;
+    --color-beige: #ccbc9e;
+}
